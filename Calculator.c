@@ -14,6 +14,15 @@ int main(){
         case '-' :
             printf("%i \n", Num1-Num2);
             break;
+        case '*':
+            printf("%i \n", Num1*Num2);
+            break;
+        case '/':
+            printf("%i \n", Num1/Num2);
+            break;
+        case '%':
+            printf("%i \n", Num1%Num2);
+            break;
     }
     return 0;
 }
