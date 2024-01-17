@@ -1,9 +1,10 @@
 #include "stdio.h"
 
 int main(){
+    printf("Welcome to fibonacci Calculator");
     int term1 = 0;
     int term2 = 1;
-    int i,n = 0;
+    int i,n;
 
     int NextTerm = term1 + term2;
 
